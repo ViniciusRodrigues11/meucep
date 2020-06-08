@@ -1,7 +1,7 @@
 $(document).ready(function () {
   feather.replace()
-  // getLocation();
-  // getAddress()
+  getLocation();
+  getAddress()
 });
 
 const getCepByPosition = (request, response) => {
