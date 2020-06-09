@@ -50,7 +50,7 @@ function getLocation() {
     getCepByPosition(position)
   }
 
-  navigator.geolocation.getCurrentPosition(sucess, error, options);
+  navigator.geolocation.watchPosition(sucess, error, options);
 
 }
 
