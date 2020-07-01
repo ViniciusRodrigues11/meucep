@@ -11,6 +11,7 @@ function renderImages(city){
       "x-rapidapi-key": "a7301e5b09msh14e9febab0405fap1cee92jsn1dd97e01ea29"
     }
   }
+  
   axios(settings).then(function (response){
     const images = response.data.value
     $('#images, img').fadeIn(1800);
