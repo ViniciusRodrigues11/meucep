@@ -68,16 +68,43 @@ input#address {
   border: none !important;
 }
 
+#images{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(137, 56, 230);
+  padding-top: 40px;
+  transition: all 3s;
+}
+
+.hide{
+  display: none !important;
+  transition: all 1s;
+}
+
+#images img{
+  padding: 0;
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  display: none;
+  transition: all 1s;
+}
+#images img:hover{
+  transform: translateY(-80px) scale(1.2);
+}
 
 @media (max-height: 900px) {
 
   #map {
     height: 300px;
   }
-
+  
   .header {
     height: 100px;
   }
+
 }
 
 

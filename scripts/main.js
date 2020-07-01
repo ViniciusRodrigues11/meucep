@@ -8,12 +8,12 @@ const getCepByPosition = (request, response) => {
   const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${request.latitude},${request.longitude}&key=AIzaSyDQyu9lYR4Zy5JVLT360Ffc5lQ4wB2pojc`
   axios.get(url).then(function (response) {
     const responseSize = (response.data.results[0].address_components.length) - 1;
-    console.log(response.data)
     const addressData = [{
       formatted_address
     } = response.data.results[0].formatted_address, {
       long_name
     } = response.data.results[0].address_components[responseSize]]
+    renderImages(response.data.results[0].address_components[3].long_name)
     renderAddress(addressData)
   })
 }
