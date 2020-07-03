@@ -27,7 +27,7 @@
 					class="bookmark source">
 					<div class="bookmark-info">
 						<div class="bookmark-text">
-							<div class="bookmark-title">MeuCep</div>
+							<div class="bookmark-title"></div>
 						</div>
 						<div class="bookmark-href">https://viniciusrodrigues11.github.io/meucep/</div>
 					</div>
