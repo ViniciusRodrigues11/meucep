@@ -20,8 +20,8 @@
 			<p id="bcf52b99-670e-491b-a417-955b15c59830" class="">
 			</p>
 			<figure id="1b18b603-795a-4903-ad45-6b8628649469" class="image"><a
-					href="./readme/Untitled.png"><img style="width:624px"
-						src="./readme/Untitled.png" /></a></figure>
+					href="./readme/Untitled.jpeg"><img style="width:624px"
+						src="./readme/Untitled.jpeg" /></a></figure>
 			<p id="f8cea872-1dc0-40f2-985a-03b9d8e21f3b" class="">🌐 Você pode acessar para ver o resultado em:</p>
 			<figure id="1471587f-0b76-48ce-b679-6c5c1fd4290a"><a href="https://viniciusrodrigues11.github.io/meucep/"
 					class="bookmark source">
