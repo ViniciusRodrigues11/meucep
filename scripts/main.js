@@ -78,12 +78,14 @@ const renderAddress = (address) => {
 
 function getAddress() {
   $('#address').on('keypress',function(e){
+  if(e.which == 13) {
     if ($('#address').val()) {
       const address = ($('#address').val()).replace(/ /gi, '+')
       getCepByAddress(address)
     } else {
       console.error('Precisa de um endereço')
     }
+ }
   })
   
   $('#btnGetAddress').on('click', function () {
